@@ -1,86 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="box">
-        <h1><img src="/assets/images/produtos/logo.png" alt=""></h1>
-        
-        <nav>
-          <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/pages/produtos.html">Produtos</a></li>
-            <li><a href="/pages/contato.html">Contato</a></li>
-          </ul>
-        </nav>
-      </div>      
-    </header>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Plus</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="cabecalho container">
+    <div class="container__caixa">
+      <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+      <img class="container__imagem" src="/assets/images/Combo.png" alt="O combo+ é a junção do alura+ com o alura lingua ">
+      <a class="container__botao" href="https://www.alura.com.br/">Assine por 12x de R$ 120,00*</a>
+      <a class="container__botao botao_secundario" href="https://www.alura.com.br/">Assinar somente o Alura+</a>
+      <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+    </div>
+  </section> 
+  
+  <section class="container secundario">
+    <img class="secundario__imagem" src="/assets/images/Plataformas.png" alt="Um monitor e um celular com o alura plus aberto">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Assista do seu jeito</h2>
+      <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
+    </div>
+  </section>
 
-    <img class="banner" src="/assets/images/principal/banner.jpg" alt="" />
+  <section class="container secundario">
+    <div class="container__descricao">
+      <p class="descricao__texto">Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
+      <a class="container__botao secundario__botao" href="https://www.alura.com.br/">Assinar o Combo+</a>
+    </div>
+    <img class="secundario__imagem" src="/assets/images/Telas.png" alt="Tela da alura plus e do alura linguas">
+  </section>
 
-    <main>
-      <section class="principal">
-        <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
-        
-        <img class="utensilios" src="/assets/images/principal/utensilios.jpg" alt="utensilios de um babeiro">
+  <section class="container secundario">
+    <img class="secundario__imagem" src="/assets/images/Notebook.png" alt="Notebook com alura plus aberto">
+    <div class="container__descricao">
+      <h2 class="descricao__titulo">Baixe seus cursos</h2>
+      <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
+    </div>
+  </section>
 
-        <p>
-          Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz
-          para o mercado o que há de melhor para o seu cabelo e barba. Fundada em
-          2019, a Barbearia Alura já é destaque na cidade e conquista novos
-          clientes a cada dia.
-        </p>
+  <section class="dispositivos">
+     <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+     <ul class="dispositivos__listas">
+      <li>
+        <img src="/assets/images/tv.png" alt="Icone de televisão">
+        <h3 class="lista__item">TV</h3>
+      </li>
+      <li>
+        <img src="/assets/images/computador.png" alt="Icone de computador">
+        <h3 class="lista__item">Computadores</h3>
+      </li>
+      <li>
+       <img src="/assets/images/celular.png" alt="Icone de celular">
+       <h3 class="lista__item">Celular</h3>
+      </li>
+     </ul>
+  </section>
 
-        <p id="missao">
-          <em
-            >Nossa missão é:<strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em>
-        </p>
-
-        <p>
-          Oferecemos profissionais experientes e antenados às mudanças no mundo da
-          moda. O atendimento possui padrão de excelência e agilidade, garantindo
-          qualidade e satisfação dos nossos clientes.
-        </p>
-      </section>
-
-      <section class="mapa">
-        <h3 class="titulo-principal">Nosso estabelecimento</h3>
-        <p>Nossso estabelecimento esta localizado no coração da cidade</p>
-
-        <div class="mapa-conteudo">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117006.39488152662!2d-46.7641678375!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1653000548818!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </section>
-
-      <section class="beneficios">
-        <h3 class="titulo-principal">Benefícios</h3>
-        
-        <div class="conteudo-beneficios">
-          <ul class="lista-beneficios">
-            <li class="itens">Atendimento aos clientes</li>
-            <li class="itens">Espaço diferenciado</li>
-            <li class="itens">Localização</li>
-            <li class="itens">Profissionais Qualificados</li>
-            <li class="itens">Pontualidade</li>
-            <li class="itens">Limpeza</li>
-          </ul><img class="imagem-beneficios" src="/assets/images/principal/beneficios.jpg" alt=""/>
-        </div>
-
-        <div class="video">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <img src="/assets/images/produtos/logo-branco.png" alt="">
-      <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-    </footer>
-  </body>
+  <footer class="rodape">
+    <img class="rodape__logo" src="/assets/images/Logo.png" alt="Logo Alura plus">
+    <ul class="rodape__listas">
+      <li class="lista__link">
+        <a href="#">Idioma</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Dispositivos compatíveis</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Contrato de assinatura</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Politica de privacidade</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Proteção de dados no Brasil</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Anuncios personalizados</a>
+      </li>
+      <li class="lista__link">
+        <a href="#">Ajuda</a>
+      </li>
+    </ul>
+    <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+    <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+  </footer>
+</body>
 </html>
